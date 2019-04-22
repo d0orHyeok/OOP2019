@@ -21,10 +21,12 @@ public class Account {
 	public void withdraw(int drawAmount) {
 		if (drawAmount > balance) {
 			System.out.println("Withdrawal amount exceeded account balance.");
+			return;
 		}
 		
 		if (drawAmount <= 0) {
 			System.out.println("draw upper 0$");
+			return;
 		}
 		
 		if (drawAmount > 0)

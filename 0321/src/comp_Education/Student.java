@@ -2,7 +2,7 @@ package comp_Education;
 
 public class Student {
 	String name;
-	String ID;
+	int ID;
 	int phonenum;
 	String email;
 	
@@ -18,10 +18,10 @@ public class Student {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getID() {
+	public int getID() {
 		return ID;
 	}
-	public void setID(String iD) {
+	public void setID(int iD) {
 		ID = iD;
 	}
 	public int getPhonenum() {

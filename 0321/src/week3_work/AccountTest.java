@@ -14,5 +14,9 @@ public class AccountTest {
 		
 		System.out.print("Enter withdraw amount for account1");
 		int drawAmount = input.nextInt();
+		
+		account1.withdraw(drawAmount);
+		
+		System.out.println(account1.getBalance());
 	}
 }

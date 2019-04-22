@@ -30,6 +30,4 @@ public class Professor {
 	public void setPhonenum(int phonenum) {
 		this.phonenum = phonenum;
 	}
-	
-	
 }

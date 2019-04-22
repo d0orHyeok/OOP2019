@@ -8,11 +8,10 @@ public class CarTest {
 		System.out.println(c1.getModel() + " "+c1.getPrice()+"$");
 		System.out.println(c2.getModel() + " "+c2.getPrice()+"$");
 		
-		c1.setPrice(5000.0 * 0.95);
-		c2.setPrice(3000.0 * 0.93);
+		c1.setDiscount(5);
+		c2.setDiscount(7);
 		
 		System.out.println("discount5% "+c1.getPrice());
 		System.out.println("discount7% "+c2.getPrice());
 	}
-
 }

@@ -36,4 +36,16 @@ public class Car {
 			this.price = price;
 	}
 	
+	public void setDiscount(int d) {
+		if (d <= 0) {
+			System.out.println("1이상의 할인률을 입력하시오");
+			return;
+		}
+		if (d > 100) {
+			System.out.println("100%가 넘는 할인률을 입력하셨습니다.");
+			return;
+		}
+		this.price = this.price*(100-d)/100;
+	}
+	
 }
